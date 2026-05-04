@@ -294,6 +294,35 @@ h3 {
   font-size: clamp(1.25rem, 2.2vw, 1.8rem);
 }
 
+.experience-card h3 {
+  margin-bottom: 0.85rem;
+  font-size: clamp(1.45rem, 2.8vw, 2.2rem);
+}
+
+.role-meta {
+  display: grid;
+  gap: 0.35rem;
+  margin-bottom: 1.1rem;
+}
+
+.role-meta span {
+  margin: 0;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.role-meta span:first-child {
+  color: var(--ink);
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.role-meta span:last-child {
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
 .map-layout {
   display: grid;
   grid-template-columns: minmax(0, 1.25fr) minmax(260px, 0.65fr);
