@@ -212,7 +212,7 @@ h3 {
 
 .project-layout {
   display: grid;
-  grid-template-columns: minmax(280px, 0.85fr) minmax(0, 1.15fr);
+  grid-template-columns: minmax(280px, 0.75fr) minmax(0, 1.25fr);
   gap: 1.2rem;
   align-items: center;
 }
@@ -292,12 +292,19 @@ h3 {
   padding: 1.4rem;
 }
 
+.project-card {
+  display: grid;
+  grid-template-rows: minmax(3.4rem, auto) minmax(2.7rem, auto) minmax(5.6rem, 1fr) auto;
+  gap: 0;
+}
+
 .work-card h3 {
   font-size: clamp(1.25rem, 2.2vw, 1.8rem);
 }
 
 .project-card h3 {
-  margin-bottom: 0.6rem;
+  margin: 0 0 0.6rem;
+  line-height: 1.15;
 }
 
 .project-meta {
@@ -306,6 +313,11 @@ h3 {
   font-size: 0.92rem;
   font-weight: 800;
   line-height: 1.4;
+}
+
+.project-card p {
+  margin: 0;
+  line-height: 1.7;
 }
 
 .project-card .project-links,
